@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  descheduler:
+  - annotations:
+      spectrocloud.com/fips-compliant: "true"
+    apiVersion: v1
+    appVersion: 0.27.1
+    created: "2023-08-15T22:12:23.252725+02:00"
+    description: Descheduler for Kubernetes is used to rebalance clusters by evicting
+      pods that can potentially be scheduled on better nodes. In the current implementation,
+      descheduler does not schedule replacement of evicted pods but relies on the
+      default scheduler for that.
+    digest: 8b3a3f79fb485c6c38e6b46d7c4408ae50ad8dc013ff74f583bf0ee355c0a817
+    home: https://github.com/kubernetes-sigs/descheduler
+    icon: https://kubernetes.io/images/favicon.png
+    keywords:
+    - kubernetes
+    - descheduler
+    - kube-scheduler
+    maintainers:
+    - email: kubernetes-sig-scheduling@googlegroups.com
+      name: Kubernetes SIG Scheduling
+    name: descheduler
+    sources:
+    - https://github.com/kubernetes-sigs/descheduler
+    urls:
+    - descheduler-0.27.1.tgz
+    version: 0.27.1
+generated: "2023-08-15T22:12:23.251817+02:00"
